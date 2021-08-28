@@ -5,8 +5,8 @@
   "description": "Library to allow Solana dApps to use third-party wallets to sign transactions",
   "license": "Apache-2.0",
   "repository": "project-serum/sol-wallet-adapter",
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "engines": {
     "node": ">=10"
   },
