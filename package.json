@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@project-serum/sol-wallet-adapter",
   "version": "0.2.5",
   "description": "Library to allow Solana dApps to use third-party wallets to sign transactions",
@@ -48,6 +49,7 @@
   ],
   "dependencies": {
     "bs58": "^4.0.1",
+    "encoding": "^0.1.13",
     "eventemitter3": "^4.0.7"
   }
 }
